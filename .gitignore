@@ -1,0 +1,100 @@
+# Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform backend
+.terraform/
+terraform.tfstate.d/
+
+# Kubeconfig
+kubeconfig
+*.kubeconfig
+
+# AWS
+*.pem
+*.ppk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Credentials
+*.crt
+*.key
+*.pem
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Archives (don't ignore the final submission zip)
+# *.zip
+# *.tar.gz
+# *.tar
+
+# goit-argo is a separate repo, don't track it here
+goit-argo/.git/
+goit-argo-templates/
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Large binary files
+terraform/argocd/.terraform/
+terraform/eks/.terraform/
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Shell scripts that might be generated
+get_helm.sh
