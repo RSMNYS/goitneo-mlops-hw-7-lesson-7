@@ -116,17 +116,5 @@ kubectl get applications -n infra-tools -o wide
 
 ---
 
-## 📚 Критерії оцінювання
-
-| Критерій | Бали | Статус |
-|----------|------|--------|
-| ArgoCD через Terraform | 30 | ✅ |
-| Application у Git | 25 | ✅ |
-| Успішний деплой Helm-сервісу | 30 | ✅ |
-| README.md з інструкціями | 15 | ✅ |
-| **Разом** | **100** | |
-
----
-
 **Lesson 7** - ArgoCD GitOps Deployment
 GoIT MLOps Neoversity © 2026
